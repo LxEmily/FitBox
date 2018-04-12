@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<header>
+		<title>Log In</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+	</header>
+	
+	<body>
+		<nav class="nav">
+			<ul>
+				<li><a href="">Logo</a></li>
+				
+				<li>
+					<a href="">About</a>
+					<ul style="display:none">
+						<li><a href="">Site info</a></li>
+						<li><a href="">Project info</a></li>
+					</ul>
+				</li>
+				<li><a href="">How it Works</a></li>
+				<li><a href="">Register/Log in</a></li>
+				<li><input type="text" class="search" placeholder="Search"></li>
+			</ul>
+		</nav>
+		
+		<section class="container">
+		<div class="userform">
+			<h1>Welcome back!</h1>
+			
+			<form id="login" name="login" method="_POST" action="login.php">
+				<p>
+					<label for="email">Email: <br /></label>
+					<input type="text" name="email" id="email" value="Email">
+				</p>
+				
+				<p>
+					<label for="password">Password: <br /></label>
+					<input type="text" name="password" id="password" value="Password">
+				</p>
+				
+				<p>
+					<button type="submit">Log in</button>
+			</form>
+			</div>
+		</section>
+		
+		<footer class="footer">
+			<p>Insert social media icons here</p>
+			
+			<p>
+				<a href="">About</a> | 
+				<a href="">FAQ</a> | 
+				<a href="">Support</a> | 
+				<a href="">Privacy</a> | 
+				<a href="">Terms</a> 
+			</p>
+			
+			<p>Insert credits here</p>
+		</footer>
+	</body>
+</html>

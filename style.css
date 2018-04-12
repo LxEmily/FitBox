@@ -95,3 +95,21 @@ body {
 	margin: 10px 20px;
 	font-size: inherit;
 }
+
+.userform {
+	width: 30%;
+	padding: 20px 100px;
+	margin: auto;
+}
+
+.userform input[type=text] {
+	width: 80%;
+	padding: 10px;
+	margin: auto;
+}
+
+.userform select {
+	width: 80%;
+	padding: 10px;
+	margin: auto;
+}
