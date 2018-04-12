@@ -35,7 +35,7 @@ body {
 }
 
 /* nav container */
-.nav, .dropdown_content {
+.nav {
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -76,7 +76,7 @@ body {
 }
 
 /* nav list actual content on hover */
-.nav ul li a:hover, .dropdown_content:hover {
+.nav ul li a:hover {
 	border-bottom: 5px solid gray;	
 	
 	transition: border 0.2s;				
@@ -86,46 +86,7 @@ body {
 	border-bottom: 5px solid gray;			
 }
 
-/* attempt to show dropdown list on hover */
-.dropdown {
-	float: left;
-	overflow: hidden;
-}
-
-.dropbtn {
-	float: left;
-	position: absolute;
-	display: initial;
-	margin: 0px;
-	padding: 10px 20px;
-	width: 15%;
-	
-	font-color: gray;
-	text-align: center;
-	letter-spacing: 1px;
-	text-decoration: none;
-	
-	border-bottom: 5px solid #eee;
-	border-top: 5px solid white;
-	
-	transition: border 0.2s;
-}
-
-.dropdown:hover .dropbtn {
-	background-color: #eee;				
-}
-
-.dropdown_content {
-	
-	display: none;
-	position: initial;
-	border-bottom: 5px solid white;
-	z-index: 9;
-}
-
-.dropdown:hover .dropdown_content {
-	display: block;
-}
+/* attempt to show dropdown list on hover */			
 
 /* search box */
 .nav ul li input[type=text] {
