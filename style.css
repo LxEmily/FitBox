@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+
+/* ma'am change your background */
+
+body {
+	background-color: #eee;
+	background-image: url('https://static.tumblr.com/b5c5ab66d8331513696fe3ec992187a0/bbcrkzj/C5mooq9up/tumblr_static_9raut8bk6d4w0osgg8cwsoowg.png');
+	background-attachment:fixed;
+	background-repeat:repeat;
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+	padding: 0px;				
+}
+
+.footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 20px 0px;
+	margin: 0px;
+	
+	background-color: white;
+	
+	text-align: center;
+	font-size: inherit;
+	font-color: gray;
+	line-height: 150%;				
+}
+
+.container {
+	background-color: white;
+	width: 70%;
+	padding: 20px;
+	margin: 100px auto 40px;
+}
+
+/* nav container */
+.nav, .dropdown_content {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;				
+	overflow: hidden;
+	
+	background-color: white;
+	font-color: gray;
+	line-height: 150%;				
+}
+
+/* nav list is bulletless and has no whitespace */
+.nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+			
+/* nav actual content */
+.nav ul li a {
+	float: left;
+	display: block;
+	margin: 0px;
+	padding: 10px 20px;
+	width: 15%;
+	
+	font-color: gray;
+	text-align: center;
+	letter-spacing: 1px;
+	text-decoration: none;
+	
+	border-bottom: 5px solid white;
+	border-top: 5px solid white;
+	
+	transition: border 0.2s;
+}
+
+/* nav list actual content on hover */
+.nav ul li a:hover, .dropdown_content:hover {
+	border-bottom: 5px solid gray;	
+	
+	transition: border 0.2s;				
+}
+
+.nav ul li a:active {
+	border-bottom: 5px solid gray;			
+}
+
+/* attempt to show dropdown list on hover */
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+.dropbtn {
+	float: left;
+	position: absolute;
+	display: initial;
+	margin: 0px;
+	padding: 10px 20px;
+	width: 15%;
+	
+	font-color: gray;
+	text-align: center;
+	letter-spacing: 1px;
+	text-decoration: none;
+	
+	border-bottom: 5px solid #eee;
+	border-top: 5px solid white;
+	
+	transition: border 0.2s;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #eee;				
+}
+
+.dropdown_content {
+	
+	display: none;
+	position: initial;
+	border-bottom: 5px solid white;
+	z-index: 9;
+}
+
+.dropdown:hover .dropdown_content {
+	display: block;
+}
+
+/* search box */
+.nav ul li input[type=text] {
+	float: right;
+	padding: 5px;
+	margin: 10px 20px;
+	font-size: inherit;
+}
