@@ -1,0 +1,27 @@
+fitness/nutrition subscription box
+
+pages
+	about
+		site
+		project
+		author
+		contact
+	how it works
+	support
+	faq
+	T/C
+	privacy
+	log-in
+	register for membership
+	student discounts
+	
+footer
+	about
+	support
+	faq
+	T/C
+	privacy
+	membership
+	student discount
+	past boxes
+	contact

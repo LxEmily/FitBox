@@ -1,0 +1,73 @@
+.footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 1% 0%;
+	margin: 0;
+	
+	background-color: #F8F8F8;
+	
+	text-align: center;
+	font-size: inherit;
+	color: gray;
+	line-height: 150%;	
+}
+
+.footer a {
+	text-decoration: none;
+	color: #444;
+}
+
+/* social media icons */
+.icon {
+	width: 40px;
+	height: 40px;
+	margin: 0px 5px;
+	padding: 0;
+}
+
+/* footer content except links */
+.footer p {
+	width: auto;
+}
+
+/* to display ul (footer links) as a block */
+.table {
+	display: block;
+}
+
+/* footer links */
+.footer ul {
+	padding: 0;
+}
+
+.footer ul li {
+	display: inline;
+	padding: 0% 1.5%;
+	margin: auto;
+}
+
+.footer ul li:hover > a, .footer p:hover > a {
+	color: DarkGray;
+	transition: color 0.2s;
+}
+
+/* search box */
+.footer input[type=text] {
+	min-width: 10%;
+	padding: 0.2%;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+.searchBtn {
+	display: none;
+}
+
+/* responsive footer */
+@media only screen and (max-width: 600px) {
+	.footer ul li {
+		display: block;
+		margin: 1% auto;
+	}
+}

@@ -3,26 +3,12 @@
 	<header>
 		<title>Home</title>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style.css">	
 	</header>
 	
 	<body>
-		<nav class="nav">
-			<ul>
-				<li><a href="">Logo</a></li>
-				
-				<li>
-					<a href="">About</a>
-					<ul style="display:none">
-						<li><a href="">Site info</a></li>
-						<li><a href="">Project info</a></li>
-					</ul>
-				</li>
-				<li><a href="">How it Works</a></li>
-				<li><a href="">Register/Log in</a></li>
-				<li><input type="text" class="search" placeholder="Search"></li>
-			</ul>
-		</nav>
+		<?php include 'nav.php'; ?>
+		<?php include 'header.php'; ?>
 		
 		<section class="container">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce venenatis, neque a sollicitudin consequat, diam neque dignissim sapien, at auctor nunc mauris molestie purus. Quisque accumsan porta sodales. Aenean volutpat eu orci a vehicula. Praesent tristique vulputate libero sit amet suscipit. Maecenas et hendrerit velit. Aenean maximus, lectus in cursus tincidunt, metus est congue justo, nec maximus nibh magna at mauris. Fusce urna tortor, efficitur eu consectetur eu, pellentesque feugiat arcu. In aliquet nunc lorem, eget gravida lectus porta sed. In molestie, velit in commodo vulputate, est nisi laoreet eros, a venenatis est risus non enim. Duis eu est vel enim cursus egestas. Phasellus ultrices lacus sed augue molestie maximus. In hac habitasse platea dictumst. Etiam vel ante pellentesque, molestie nibh at, lacinia dui. Donec ultricies nisi non lorem ornare, at dignissim orci bibendum. Quisque nec neque aliquam, ultrices eros vitae, dapibus magna.</p>
@@ -36,18 +22,6 @@
 			<p>Aenean dapibus metus at massa accumsan finibus. Cras metus sapien, ornare eget ligula ut, porttitor auctor urna. Sed sagittis nibh eu nulla luctus, quis sagittis justo varius. Sed semper rutrum est, vitae congue leo fermentum quis. Aenean iaculis ipsum in sem sollicitudin auctor vitae vel velit. Aliquam sed massa lobortis ante molestie lacinia. Nam malesuada dapibus posuere. Quisque finibus libero vel sem lobortis, at eleifend leo malesuada. Sed at ipsum auctor, accumsan nisi non, blandit tortor.</p>
 		</section>
 		
-		<footer class="footer">
-			<p>Insert social media icons here</p>
-			
-			<p>
-				<a href="">About</a> | 
-				<a href="">FAQ</a> | 
-				<a href="">Support</a> | 
-				<a href="">Privacy</a> | 
-				<a href="">Terms</a> 
-			</p>
-			
-			<p>Insert credits here</p>
-		</footer>
+		<?php include 'footer.php'; ?>
 	</body>
 </html>

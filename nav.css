@@ -1,0 +1,92 @@
+/* nav container */
+.nav {
+	position: sticky;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;				
+	overflow: hidden;
+	
+	background-color: #F8F8F8;
+	color: gray;
+	line-height: 150%;
+	z-index: 9;	
+}
+
+/* nav list is bulletless and has no whitespace */
+.nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+			
+/* nav actual content */
+.nav ul li a {
+	float: left;
+	display: block;
+	margin: 0px;
+	padding: 10px 20px;
+	min-width: 10%;
+	width: auto;	
+	
+	font-size: inherit;
+	
+	color: gray;
+	text-align: center;
+	letter-spacing: 1px;
+	text-decoration: none;
+	
+	border-bottom: 5px solid #F8F8F8;
+	border-top: 5px solid #F8F8F8;
+	
+	transition: border 0.2s;
+}
+
+.navBtnActive {
+	border-bottom: 5px solid gray;	
+}
+
+/* nav list actual content on hover */
+.nav ul li a:hover {
+	border-bottom: 5px solid gray;	
+	
+	transition: border 0.2s;				
+}
+
+.nav ul li a:active {
+	border-bottom: 5px solid gray;			
+}
+
+.nav ul li .logo, .logo a, .nav ul li .logo:hover {
+	font-family: 'Roboto Slab', Times New Roman, serif;
+	font-size: 150%;
+	color: black;
+	vertical-align: center;
+	text-align: center;
+	border-bottom: 5px solid #F8F8F8;
+	width: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+	.nav ul li a {
+		font-size: 3.5vw;
+		width: auto;
+		border: none;
+		letter-spacing: none;
+		transition: background-color 0.2s;
+	}
+	
+	.nav ul li a:hover {
+		border: none;
+		background-color: gray;
+		color: white;
+		transition: background-color 0.2s;
+	}
+	
+	.nav ul li .logo, .logo a, .nav ul li .logo:hover {
+		border: none;
+		width: auto;
+		float: none;
+	}	
+}
