@@ -4,6 +4,6 @@
 <link rel="icon" type="image/icon" href="favicon.png"/>
 <link rel="icon" type="image/icon" href="favicon.ico"/>
 
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="nav.css">
-<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="content/style.css">
+<link rel="stylesheet" href="nav/nav.css">
+<link rel="stylesheet" href="footer/footer.css">

@@ -2,12 +2,12 @@
 <html lang="en">
 	<head>
 		<title>Contact</title>
-		<?php include 'resources.php'; ?>
-		<link rel="stylesheet" href="forms.css">
+		<?php include 'content/resources.php'; ?>
+		<link rel="stylesheet" href="forms/forms.css">
 	</head>
 	
 	<body>
-		<?php include 'nav.php'; ?>
+		<?php include 'nav/nav.php'; ?>
 			<section class="userform">
 				<h1>Leave a message</h1>
 				
@@ -35,9 +35,9 @@
 				
 				<p><a href="faq.php" title="FAQ">View the FAQ</a> or <a href="about.php" title="About">the about section</a>.</p>
 				
-				<p><?php include 'forms_message.php'; ?></p>
+				<p><?php include 'forms/forms_message.php'; ?></p>
 		</section>
-		<?php include 'footer.php'; ?>
-		<script src="background.js" type="text/javascript"></script>
+		<?php include 'footer/footer.php'; ?>
+		<script src="content/background.js" type="text/javascript"></script>
 	</body>
 </html>

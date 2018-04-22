@@ -2,12 +2,12 @@
 <html lang="en">
 	<head>
 		<title>Log In</title>
-		<?php include 'resources.php'; ?>		
-		<link rel="stylesheet" href="forms.css">	
+		<?php include 'content/resources.php'; ?>		
+		<link rel="stylesheet" href="forms/forms.css">	
 	</head>
 	
 	<body>
-		<?php include 'nav.php'; ?>
+		<?php include 'nav/nav.php'; ?>
 		<section class="userform">
 			<h1>Welcome back!</h1>
 			
@@ -26,9 +26,9 @@
 			
 			<p><a href="register.php" title="Sign up">New to FitBox? Sign up here.</a></p>
 			
-			<p><?php include 'forms_login.php'; ?></p>		
+			<p><?php include 'forms/forms_login.php'; ?></p>		
 		</section>		
-		<?php include 'footer.php'; ?>
-		<script src="background.js" type="text/javascript"></script>
+		<?php include 'footer/footer.php'; ?>
+		<script src="content/background.js" type="text/javascript"></script>
 	</body>
 </html>

@@ -1,6 +1,6 @@
 <?php
 	// Some functions
-	include 'forms_function.php';
+	include 'forms/forms_function.php';
 	
 	// Variables to hold values
 	$registerFirstName = "";

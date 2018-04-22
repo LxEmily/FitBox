@@ -43,10 +43,6 @@
 	transition: border 0.2s;
 }
 
-.navBtnActive {
-	border-bottom: 5px solid gray;	
-}
-
 /* nav list actual content on hover */
 .nav ul li a:hover {
 	border-bottom: 5px solid gray;	

@@ -2,12 +2,12 @@
 <html lang="en">
 	<head>
 		<title>Get FitBox</title>
-		<?php include 'resources.php'; ?>
-		<link rel="stylesheet" href="forms.css">
+		<?php include 'content/resources.php'; ?>
+		<link rel="stylesheet" href="forms/forms.css">
 	</head>
 	
 	<body>
-		<?php include 'nav.php'; ?>
+		<?php include 'nav/nav.php'; ?>
 		<div class="userform">
 			<h1>Get FitBox</h1>
 			
@@ -67,6 +67,9 @@
 												
 							<label for="billEmail">Email: <br /></label>
 							<input type="text" name="billEmail" id="billEmail" placeholder="Email">
+							
+							<label for="billPhone">Phone Number: <br /></label>
+							<input type="text" name="billPhone" id="billPhone" placeholder="Phone Number">
 						
 							<label for="billAddress">Billing Address: <br /></label>
 							<input type="text" name="billAddress" id="billAddress" placeholder="Billing Address">
@@ -136,9 +139,9 @@
 				
 			</form>
 			
-			<p><?php include 'forms_purchase.php'; ?></p>
+			<p><?php include 'forms/forms_purchase.php'; ?></p>
 		</div>
-		<?php include 'footer.php'; ?>
-		<script src="background.js" type="text/javascript"></script>
+		<?php include 'footer/footer.php'; ?>
+		<script src="content/background.js" type="text/javascript"></script>
 	</body>
 </html>

@@ -2,13 +2,13 @@
 <html lang="en">
 	<head>
 		<title>About</title>
-		<?php include 'resources.php'; ?>
-		<link rel="stylesheet" href="accordion.css">	
-		<link rel="stylesheet" href="header.css">	
+		<?php include 'content/resources.php'; ?>
+		<link rel="stylesheet" href="accordion/accordion.css">	
+		<link rel="stylesheet" href="header/header.css">	
 	</head>
 	
 	<body>
-		<?php include 'nav.php'; ?>
+		<?php include 'nav/nav.php'; ?>
 		
 		<header class="header header_short">
 			<h1>The About Section</h1>
@@ -65,9 +65,9 @@
 			</section>
 		</section>
 		
-		<script src="accordion.js" type="text/javascript"></script>
-		<script src="header.js" type="text/javascript"></script>
+		<script src="accordion/accordion.js" type="text/javascript"></script>
+		<script src="header/header.js" type="text/javascript"></script>
 		
-		<?php include 'footer.php'; ?>
+		<?php include 'footer/footer.php'; ?>
 	</body>
 </html>

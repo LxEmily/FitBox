@@ -41,21 +41,21 @@
 }
 
 .content_img1 {
-	background-image: url("media/icons/buy.png");
+	background-image: url("../media/icons/buy.png");
 }
 
 .content_img2 {
-	background-image: url("media/icons/delivery.png");
+	background-image: url("../media/icons/delivery.png");
 }
 
 .content_img3 {
-	background-image: url("media/icons/confetti.png");
+	background-image: url("../media/icons/confetti.png");
 }
 
 
 /* to separate introduction with expected products */
 .container_separator {
-	background-image: url("media/other/parcel.jpg");
+	background-image: url("../media/other/parcel.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center;

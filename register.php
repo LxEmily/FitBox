@@ -2,12 +2,12 @@
 <html lang="en">
 	<head>
 		<title>Register</title>
-		<?php include 'resources.php'; ?>
-		<link rel="stylesheet" href="forms.css">
+		<?php include 'content/resources.php'; ?>
+		<link rel="stylesheet" href="forms/forms.css">
 	</head>
 	
 	<body>
-		<?php include 'nav.php'; ?>
+		<?php include 'nav/nav.php'; ?>
 		<section class="userform">
 			<h1>Welcome!</h1>
 			
@@ -32,9 +32,9 @@
 			
 			<p><a href="login.php" title="Sign in">Already a member? Sign in here.</a></p>
 			
-			<p><?php include 'forms_register.php'; ?></p>
+			<p><?php include 'forms/forms_register.php'; ?></p>
 		</section>
-		<?php include 'footer.php'; ?>
-		<script src="background.js" type="text/javascript"></script>
+		<?php include 'footer/footer.php'; ?>
+		<script src="content/background.js" type="text/javascript"></script>
 	</body>
 </html>

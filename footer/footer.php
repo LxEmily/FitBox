@@ -87,4 +87,4 @@
 <!-- footer end -->
 
 
-<script type="text/javascript" src="search.js"></script>
+<script type="text/javascript" src="footer/search.js"></script>
