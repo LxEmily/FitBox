@@ -1,0 +1,150 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Get FitBox</title>
+		{% include content/resources.html %}
+		<link rel="stylesheet" href="css/forms.css">
+	</head>
+	
+	<body>
+		{% include nav/nav.html %}
+		<div class="userform">
+			<h1>Get FitBox</h1>
+			
+			<form id="login" name="login" method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+			
+				
+				<div class="row formBorder">
+					<div class="col100">
+					<!-- Plan -->
+					<h3>Choose a plan</h3>						
+					
+						<label for="subs_len">Length of subscription: <br /> </label>
+						<select name="subs_len" id="subs_len">
+							<option value="box1">One time</option>
+							<option value="box3">Half a year</option>
+							<option value="box6">Annual</option>
+						</select>
+						<p>Note: Your annual subscription will be auto-renewed until you cancel/pause it. </p>						
+					<!-- Plan end -->
+					</div>
+				</div>	
+				
+				<div class="row">					
+					<!-- Shipping details -->
+					<div class="col50 formBorder">
+						<h3>Shipping Details</h3>
+						
+						<label for="shipName">Full name: <br /></label>
+						<input type="text" name="shipName" id="shipName" placeholder="Full name">
+					
+					
+						<label for="shipAddress">Shipping Address: <br /></label>
+						<input type="text" name="shipAddress" id="shipAddress" placeholder="Shipping Address">
+						
+						<div class="row">
+							<div class="col25">
+									<label for="shipCity">City: <br /></label>
+									<input type="text" name="shipCity" id="shipCity" placeholder="City">
+							</div>
+							
+							<div class="col25">
+									<label for="shipZip">Zip Code: <br /></label>
+									<input type="text" name="shipZip" id="shipZip" placeholder="Zip Code">
+							</div>
+						</div>
+						
+						<label for="message">Optional message: <br /></label>
+						<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>						
+					</div>
+					<!-- Shipping details end-->
+				
+					<!-- Billing details -->
+					<div class="col50 formBorder">
+						<h3>Billing Details</h3>
+							<label for="billName">Full name: <br /></label>
+							<input type="text" name="billName" id="billName" placeholder="Full name">
+												
+							<label for="billEmail">Email: <br /></label>
+							<input type="text" name="billEmail" id="billEmail" placeholder="Email">
+							
+							<label for="billPhone">Phone Number: <br /></label>
+							<input type="text" name="billPhone" id="billPhone" placeholder="Phone Number">
+						
+							<label for="billAddress">Billing Address: <br /></label>
+							<input type="text" name="billAddress" id="billAddress" placeholder="Billing Address">
+						
+						<div class="row">
+							<div class="col25">
+									<label for="billCity">City: <br /></label>
+									<input type="text" name="billCity" id="billCity" placeholder="City">
+								
+							</div>
+							
+							<div class="col25">
+									<label for="billZip">Zip Code: <br /></label>
+									<input type="text" name="billZip" id="billZip" placeholder="Zip Code">
+							</div>
+						</div>
+					</div>
+					<!-- Billing details end -->
+				</div>
+				
+				<div class="formBorder">
+					<!-- Card details -->
+					<div class="row">
+						<div class="col100">
+							<h3>Card details</h3>	
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col50">										
+							<label for="cardName">Name on Card: <br /></label>
+							<input type="text" name="cardName" id="cardName" placeholder="Name on Card">
+						</div>
+						<div class="col50">						
+							<label for="cardNum">Card Number: <br /></label>
+							<input type="text" name="cardNum" id="cardNum" placeholder="Card Number">
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col50">
+							<label for="cardExpMonth">Expire Month/Year: <br /></label>
+							<div class="row">
+								<div class="col25">
+									<input type="text" name="cardExpMonth" id="cardExpMonth" placeholder="Month">
+								</div>
+								<div class="col25">
+									<input type="text" name="cardExpYear" id="cardExpYear" placeholder="Year">
+								</div>
+							</div>
+						</div>
+						
+						<div class="col50">
+							<label for="cardCVV">CVV: <br /></label>
+							<input type="text" name="cardCVV" id="cardCVV" placeholder="CVV">
+						</div>						
+					</div>
+				</div>
+					
+				<div class="row">
+					<div class="col100">
+						<button type="submit" class="button" title="Continue to checkout">Checkout</button>
+						
+						<input type="hidden" name="purchase" value="purchase">
+					</div>
+				</div>
+				
+			</form>
+			
+			<p>{% include forms/forms_purchase.php %}</p>
+		</div>
+		{% include footer/footer.html %}
+		<script src="js/background.js" type="text/javascript"></script>
+	</body>
+</html>

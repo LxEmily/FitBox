@@ -1,0 +1,61 @@
+.reason1, .reason2, .reason3, .reason4 {
+	width: 50%;
+	padding: 5%;
+	margin: 0;
+	text-align: center;
+	vertical-align: middle;
+	align-self: center;
+}
+
+.section_alt {
+	background-color: lightgray;
+}
+
+.reason1 {
+	order: 1;
+}
+.reason2 {
+	order: 2;
+}
+.reason3 {
+	order: 3;
+}
+.reason4 {
+	order: 4;
+}
+
+.reason_img1, .reason_img2, .reason_img3, .reason_img4 {
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-position: center center;
+	height: 128px;
+	margin: 0 auto;
+	padding: 5%;
+	text-align: center;
+	vertical-align: middle;
+	align-self: center;
+}
+
+.reason_img1 {
+	background-image: url('../media/icons/money.png');
+}
+.reason_img2 {
+	background-image: url('../media/icons/discover.png');
+}
+.reason_img3 {
+	background-image: url('../media/icons/customer.png');
+}
+.reason_img4 {
+	background-image: url('../media/icons/cancel.png');
+}
+
+@media only screen and (max-width: 600px) {
+	.reason1, .reason2, .reason3, .reason4 {
+		width: 100%;
+	}
+	
+	.reason_img1, .reason_img2, .reason_img3, .reason_img4 {
+		width: 100%;
+	}
+	
+}
