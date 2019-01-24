@@ -1,0 +1,52 @@
+.accordionBtn {
+	background-color: white;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	width: 100%;
+	padding: 5px 20px;
+	margin: 0;
+	text-align: left;
+	color: #444;
+	font-family: 'Roboto Slab', Times New Roman, serif;
+	transition: background-color 0.4s;
+}
+
+.accordionBtn:hover, .accordionActiveBtn {
+	background-color: #F5F5F5;
+	transition: background-color 0.4s;
+}
+
+.accordionPanel {
+	max-height: 0;
+	padding: 0px 20px;
+	overflow: hidden;
+	transition: 0.4s;
+	transition: max-height 0.2s ease-out;
+}
+
+.accordionGroup {
+	box-shadow: 1px 1px 5px gray;
+	width: 70%;	
+	margin: 2% auto 0%;
+	text-align: left;
+}
+
+.accordionAll {
+	width: 60%;
+	margin: 5% auto;
+}
+
+.accordionAll h1 {
+	padding: 15px;
+	width: 70%;	
+	margin: 2% auto 0%;
+	text-align: left;
+	letter-spacing: 1px;
+	font-family: 'Roboto Slab', Times New Roman, serif;
+}
+
+@media only screen and (max-width: 600px) {
+	.accordionAll {
+		width: 100%;
+	}
